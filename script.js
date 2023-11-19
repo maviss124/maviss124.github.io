@@ -27,7 +27,7 @@ const ARTBOOKS = [
   subtitle: 'From',
   /* i want to using <p> tag here */
   description: 'Em yêu thương, Những dòng chữ này không đủ để diễn đạt hết tình cảm của em dành cho Tea. Mỗi ngày, em cảm thấy hạnh phúc khi được có em Tea. Em biết rằng không có từ ngữ nào đủ để diễn tả tấm lòng em dành Tea. Mỗi khi em nhìn thấy ánh sáng trong đôi mắt Tea, em nhận ra rằng đó chính là nơi em muốn ở. Em Tea là nguồn động viên, là người em muốn chia sẻ mọi khoảnh khắc vui buồn, vượt qua giai đoạn khó khăn. Tea là người mà em chọn, và em sẽ luôn bên Tea, trải qua mọi khó khăn và hạnh phúc. Chỉ cần có em, cuộc sống trở nên ý nghĩa hơn. Chúc em 20/11 vui vẻ, nhiều niềm vui, hạnh phúc, ngọt ngào mãi bên em Yêu thương nhiều,',
-  image: './1.png',
+  image: '1.png',
   groove: true,
   obiStyles: {
     color: 'hsl(0, 0, 22%)',
