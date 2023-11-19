@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Love Tea</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<transition-group :css="false" appear="" class="flex" name="fade" tag="div" v-on:before-enter="beforeItemEnters" v-on:enter="whenItemEnters"><book :book-styles="book.bookStyles" :data-index="index" :description="book.description" :groove="book.groove" :image="book.image" :key="book.id" :obi-styles="book.obiStyles" :subtitle="book.subtitle" :title="book.title" v-for="(book, index) in books.artbooks"></book></transition-group>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0-beta.5/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.9.3/vue-resource.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
